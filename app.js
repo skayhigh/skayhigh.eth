@@ -16,7 +16,7 @@ tl.fromTo(
   },
   {
     clipPath: "circle(100%)",
-    duration: 2,
+    duration: 4,
   }
 );
 
@@ -30,7 +30,7 @@ tl.fromTo(
     opacity: 0,
     duration: 1,
   },
-  "-=2"
+  "-=4"
 );
 
 tl.fromTo(
@@ -55,4 +55,36 @@ tl.fromTo(
   }
 );
 
+tl.fromTo(
+  ".title",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl.fromTo(
+  ".sub-title",
+  {
+    opacity: 1,
+  },
+  {
+    opacity: 0,
+    duration: 1,
+  }
+);
+
+tl.fromTo(
+  ".front-page",
+  {
+    clipPath: "circle(100%)",
+  },
+  {
+    clipPath: "circle(30%)",
+    duration: 4,
+  }
+);
 
