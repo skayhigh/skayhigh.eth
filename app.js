@@ -8,6 +8,7 @@ let tl = gsap.timeline({
   },
 });
 
+
 tl.fromTo(
   ".front-page",
   {
@@ -86,4 +87,5 @@ tl.fromTo(
     duration: 4,
   }
 );
+
 

@@ -8,8 +8,8 @@
 
 .scroll {
   position: absolute;
-  top: 55%;
-  left: 50%;
+  top: 42%;
+  left: 53.2%;
   transform: translate(-50%, -50%) scale(0.5);
   z-index: 4;
 }
