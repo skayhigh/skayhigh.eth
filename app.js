@@ -5,7 +5,6 @@ let tl = gsap.timeline({
     end: "100%",
     scrub: "true",
     pin: true,
-    markers: true,
   },
 });
 
@@ -21,7 +20,7 @@ tl.fromTo(
 );
 
 tl.fromTo(
-  ".music-note",
+  ".scroll",
   {
     scale: 0.5,
   },
