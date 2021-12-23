@@ -5,6 +5,7 @@ let tl = gsap.timeline({
     end: "100%",
     scrub: "true",
     pin: true,
+    markers: true,
   },
 });
 
@@ -14,7 +15,7 @@ tl.fromTo(
     clipPath: "circle(5%)",
   },
   {
-    clipPath: "circle(75%)",
+    clipPath: "circle(100%)",
     duration: 2,
   }
 );
